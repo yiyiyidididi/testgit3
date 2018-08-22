@@ -16,7 +16,7 @@ public class Customer {
 	 private final static String QUEUE_NAME = "rabbitMQ.test";
  
 	    public static void main(String[] args) throws IOException, TimeoutException {
-	        // 创建连接工厂de 
+	        // 创建连接工厂de  
 	        ConnectionFactory factory = new ConnectionFactory();
 	        //设置RabbitMQ地址
 	        factory.setHost("localhost");

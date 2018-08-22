@@ -20,7 +20,7 @@ public class EurekaClientApplication {
 
     @Value("${server.port}")
     String port;
-    @RequestMapping("/")
+    @RequestMapping("/home")
     public String home() {
     	
     	

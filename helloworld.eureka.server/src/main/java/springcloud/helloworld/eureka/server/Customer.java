@@ -17,7 +17,7 @@ public class Customer {
  
 	    public static void main(String[] args) throws IOException, TimeoutException {
 	        // 创建连接工厂  
-	    	System.out.println(12);
+	    	System.out.println(123);
 	        ConnectionFactory factory = new ConnectionFactory();
 	        //设置RabbitMQ地址
 	        factory.setHost("localhost");

@@ -27,7 +27,6 @@ public class EurekaClientApplication {
     
     	System.out.println(123);
 
-   
 
         return "hello world from port " + port;     
     }

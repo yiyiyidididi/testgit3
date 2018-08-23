@@ -23,7 +23,7 @@ public class EurekaClientApplication {
     @RequestMapping("/home")
     public String home() {
     	
-    	System.out.println(12);
+    	System.out.println(123);
         return "hello world from port " + port;     
     }
 

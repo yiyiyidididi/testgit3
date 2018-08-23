@@ -16,7 +16,7 @@ public class Producer {
         //创建连接工厂
         ConnectionFactory factory = new ConnectionFactory();
         //设置RabbitMQ相关信息
-        System.out.println(12);
+         System.out.println(12);
         factory.setHost("localhost");
       //factory.setUsername("lp");
       //factory.setPassword("");

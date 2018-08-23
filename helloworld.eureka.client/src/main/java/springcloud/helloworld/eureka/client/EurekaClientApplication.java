@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class EurekaClientApplication {
 
     public static void main(String[] args) {
+    	System.out.println(122);
         SpringApplication.run(EurekaClientApplication.class, args);
     }
 
@@ -27,7 +28,7 @@ public class EurekaClientApplication {
     
     	System.out.println(124);
 
-    	System.out.println(121);
+    	System.out.println(122);
 
 
 

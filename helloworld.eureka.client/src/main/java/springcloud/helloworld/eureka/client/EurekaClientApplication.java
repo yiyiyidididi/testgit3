@@ -25,7 +25,7 @@ public class EurekaClientApplication {
     	
     	System.out.println(123);
     
-    	System.out.println(124);
+    	System.out.println(123);
 
    
 
